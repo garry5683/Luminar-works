@@ -1,0 +1,111 @@
+header{
+    position: sticky;
+}
+.stky{
+    background-color:rgb(196, 189, 189);
+    padding: 15px;
+    position: sticky;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;   
+}
+a:hover {
+    background-color:rgba(117, 111, 111, 0.692);
+  }
+.col{
+    margin-left: 30px;
+    width: 30%;
+    height: 700px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    
+}
+.col1{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.col1 img{
+    width: 100%;
+    height: 100%;
+}
+.col2{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.col2 img{
+    width: 100%;
+    height: 100%;
+}.col3{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.col3 img{
+    width: 100%;
+    height: 100%;
+}.col4{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.col4 img{
+    width: 100%;
+    height: 100%;
+}.col5{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.col5 img{
+    width: 100%;
+    height: 100%;
+}.col6{
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.col6 img{
+    width: 100%;
+    height: 100%;
+}
+.r{
+    margin: 10px;
+    border: 1px;
+    width: 95%;
+    height: 450px;
+}
+.col h1{
+    padding-top:  0%;
+    padding-bottom: 0%;
+}
+p{
+    text-align: justify;
+    padding-right: 1%;
+}
+.gl{
+    border: black 1px solid;
+    width: 32%;
+    height: 40px;
+    float: left;
+    border-left: none;
+    padding-top: 20px;
+}
+.gr{
+    border: black 1px solid;
+    width: 32%;
+    height: 40px;
+    float: left;
+    padding-top: 20px;
+    border-right: none;
+    border-left: none;
+}

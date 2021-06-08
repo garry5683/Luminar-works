@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    
+}
+.main-head{
+    text-align: center;
+    color: purple;
+}
+.sub{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: rebeccapurple;
+}
+.main{
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: saddlebrown;*/
+    color: white;
+    text-align: center;
+
+    border: 2px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 400px;
+    background-color: purple;
+    float: left;
+    border-radius: 20%;
+
+}
+.galaxy-div{
+    background-color: rebeccapurple;
+}
+.poco-div{
+    background-color: seagreen;
+}
+.main h1{
+    font-size: 25px;
+    
+}
+
