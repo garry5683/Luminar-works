@@ -1,17 +1,16 @@
-var num=5,k=0;
-for(let i=num;i>0;i--)
+var num=5;
+for(let i=1;i<=num;i++)
 {
     var str=""
-    for(let j=1;j<i;j++)
+    for(let j=num-i;j>=1;j--)
     {
         str+=" ";
     }
-    k=k+1;
-    for(let q=1;q<=k;q++)
+    for(let q=1;q<=i;q++)
         {
             str+="*"
         }
-    for(let q=1;q<k;q++)
+    for(let q=1;q<i;q++)
         {
             str+="*"
         }

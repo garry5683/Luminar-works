@@ -1,9 +1,10 @@
-var num=3,low=8,upp=26;
+var num=3,low=8,upp=26,res=0;
 
-for(let i=1;i<26;i++)
+for(let i=1;i<=upp;i++)
 {
-    if((i**2>low)&(i**2<upp))
+    res=i**num;
+    if((res>=low)&(res<=upp))
     {
-        console.log(`${i}**2=${i**2}`);
+        console.log(`${i}**${num}=${res}`);
     }
 }
