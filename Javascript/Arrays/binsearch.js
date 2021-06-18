@@ -1,4 +1,21 @@
-var arr=[10,13,12,11,17,15,2000,3,18]
+var arr=[10,7,11,8,12,9]
 
 arr.sort((num1,num2)=>num1-num2)
-console.log(arr);
+var element=10;
+let flag=0;
+var low=0,upp=arr.length-1;
+while(low<=upp){
+    let mid= Math.floor((low+upp)/2)
+
+    if(element>arr[mid]){
+        low=mid+1;
+    }
+    else if(element<arr[mid]){
+        upp=mid-1
+    }
+    else if(element == arr[mid]){
+        flag++;
+        break;
+    }
+}
+console.log(flag==0?"not found":"found");
