@@ -3,7 +3,7 @@
 //abbc   b
 
 
-var arr = ["a", "b", "b", "c"]
+var arr = ["a", "b", "a", "c"]
 var flag = 0, flag1 = 0, str = "";
 
 for (let i = 0; i < arr.length; i++) {
